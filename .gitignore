@@ -1,0 +1,12 @@
+# build output
+build*/
+cmake-build-*/
+
+# market data (too large for Git)
+data/*
+!data/.gitkeep
+touch data/.gitkeep
+
+# editor files
+.idea/
+.vscode/
